@@ -1,7 +1,7 @@
 # float msgs
 ros messages with float32 type, not float64 (double). 
 
-# implementation
+# implemented msgs
 * geometry_msgs
   * Vector3
   * Quaternion
