@@ -35,6 +35,11 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Quaternion.msg"
   "msg/Vector3.msg"
+  "msg/Point.msg"
+  "msg/Pose.msg"
+  "msg/Twist.msg"
+  "msg/PoseWithCovariance.msg"
+  "msg/TwistWithCovariance.msg"
   DEPENDENCIES std_msgs
 )
 
